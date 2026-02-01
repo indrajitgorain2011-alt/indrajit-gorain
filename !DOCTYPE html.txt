@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video Player</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #000;
+    }
+    video {
+      width: 50%;
+      max-width: 500px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <video controls autoplay>
+    <source src="https://raw.githubusercontent.com/indrajit91667/indrajitgorain/64bd276e91e6b007dfeefef620528d9276d8a426/_scene_2_202601311239_wjeuc.mp4" type="video/mp4">
+  </video>
+
+</body>
+</html>
